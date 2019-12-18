@@ -5,28 +5,36 @@ html{
     margin: 0;
     box-sizing: border-box;
 }
-.gorilla{
-    height: 15rem;
-    font-size: 5rem;
-    
-}
-.tiger{
-    height: 15rem;
+.Title{
+    display: flex;   
+    justify-content: center;
+    height: 10rem;
     font-size: 5rem;
 }
 
-.grizzly{
-    height: 15rem;
-    font-size: 5rem;
-}
 .Grizzly-img{
-    height: 15rem;
-
+    height: 25rem;
+    width: 25rem;
 }
 .Tiger-img{
-    height: 15rem;
+    height: 25rem;
+    width: 25rem;
+}
+
+.Gorilla-img{
+    height: 25rem;
+    width: 25rem;
 }
 .ZoosParagraph{
     height: 15rem;
     font-size: 3rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
 }
