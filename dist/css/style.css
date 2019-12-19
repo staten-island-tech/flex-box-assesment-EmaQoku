@@ -36,6 +36,16 @@ html {
 .ZoosParagraph {
   height: 15rem;
   font-size: 3rem;
+  width: 55rem;
+}
+
+.more-text {
+  height: 15rem;
+  font-size: 3rem;
+}
+
+.more-animals {
+  height: 30rem;
 }
 
 .menu {
@@ -51,8 +61,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 30rem;
 }
 /*# sourceMappingURL=style.css.map */

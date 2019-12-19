@@ -28,13 +28,22 @@ html{
 .ZoosParagraph{
     height: 15rem;
     font-size: 3rem;
+    width: 55rem;
 }
-
+.more-text{
+    height: 15rem;
+    font-size:3rem;
+   
+}
+.more-animals{
+    height: 30rem;
+}
 .menu{
     display: flex;
     justify-content: space-between;
 }
 .images{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 30rem;
 }
