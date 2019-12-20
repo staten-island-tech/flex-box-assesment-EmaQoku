@@ -26,17 +26,21 @@ html{
     width: 25rem;
 }
 .ZoosParagraph{
-    height: 15rem;
+    height: 45rem;
     font-size: 3rem;
-    width: 55rem;
+    
 }
 .more-text{
-    height: 15rem;
+    height: 75rem;
     font-size:3rem;
+    width: 161rem;
    
 }
 .more-animals{
-    height: 30rem;
+   height: 30rem;
+   font-size: 3rem;
+   display: flex;
+   justify-content: space-between;
 }
 .menu{
     display: flex;
@@ -46,4 +50,11 @@ html{
     display: flex;
     justify-content: space-around;
     height: 30rem;
+}
+.SomeAnimals{
+   font-size:3rem;
+   height: 20rem;
+   display: flex;
+   justify-content: center;
+
 }
