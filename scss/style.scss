@@ -26,43 +26,42 @@ html{
     width: 25rem;
 }
 .ZoosParagraph{
-    height: 45rem;
+    height: 30rem;
+    width: 125rem;
     font-size: 3rem;
     
 }
 .more-text{
     height: 75rem;
-    font-size:3rem;
-    width: 100rem;
+    font-size:4rem;
+    width: 60rem;
    
 }
 .more-animals{
    height: 30rem;
    font-size: 3rem;
    display: flex;
-   justify-content: space-around;
-   align-items: center;
+   justify-content: space-around;;
    flex-direction: row;
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
-}
+
 .images{
     display: flex;
     justify-content: space-around;
-    height: 30rem;
+    height: 35rem;
 }
 .SomeAnimals{
    font-size:3rem;
-   height: 20rem;
-   width: 99rem;
+   height: 27rem;
+   width: 60rem;
    display: flex;
    justify-content: space-between;
    flex-direction: column;
+   align-items: center;
+   text-align: center;
 }
 .MoreAnimalImgs{
-    width: 99rem;
+    width: 62rem;
     display: flex;
     justify-content: space-between;
 }
@@ -74,15 +73,21 @@ html{
     width: 20rem; 
     height: 20rem;
 }
-.hippo{
+.hippo{ 
     width: 20rem;
     height: 20rem;
 }
 
 .menu-container{
     display: flex;
-    flex-direction: row;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.BronxZooImg{
+    padding: 2rem;
+    height: 30rem;
+}
+.BronxZooText{
+    font-size: 2rem;
 }
